@@ -8,8 +8,8 @@ const _ = require('lodash');
 const app = express();
 const port = 1250;
 
-const aboutContent = "Reprehenderit elit commodo laboris sit sit adipisicing veniam dolore et ex do ex sunt voluptate."
-const contactContent = "Ea consectetur Lorem laborum dolore sunt eiusmod."
+const aboutContent = "Dovvahkiin, Greybeards from High Hrothgar are calling you!"
+const contactContent = "If you are smart, you will find the way to contact me!"
 
     
 
