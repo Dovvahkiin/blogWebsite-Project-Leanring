@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+
+    <% postovine.forEach(function(post){ %>
+    <div class="postDesign">
+    <h1><%= post.title %></h1>
+    <hr>
+    <p><%= post.text.slice(1,100)+"..."%>
+    <a href="/posts/<%= post.title%>">Read More...</a>
+    </p>
+    </div>
+<%}); %>
+
+
+
+<%- include("partials/footer") %>

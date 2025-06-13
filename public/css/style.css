@@ -1,0 +1,104 @@
+:root
+{
+    --hoverOrange: rgb(235, 167, 40);
+    --textColorGray: #646464;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* header */
+.navbar
+{
+    height: 15vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+    color: var(--textColorGray);
+    letter-spacing: 3px;
+    box-shadow: 0px 1.2px rgb(226, 226, 226);
+}
+
+.rightBar
+{
+    display: flex;
+    gap: 30px;
+}
+.rightBar>a
+{
+    color: var(--textColorGray);
+    text-decoration: none;
+}
+
+.rightBar>a:hover
+{
+    color: var(--hoverOrange);
+}
+
+/* footer */
+
+footer>p
+{
+    justify-content: center!important;
+    height: 5vh!important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0!important;
+}
+
+/* content container */
+
+.container
+{
+    padding: 2% 3%;
+    color: var(--textColorGray);
+    font-weight: bold;
+}
+
+/* compose post */
+
+.postsClass
+{
+    width: 100%;
+    border: 1px solid var(--textColorGray);
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+#postTextID
+{
+    height: 200px;
+}
+
+#composePublishButton
+{
+    padding: 0.5%;
+    border-radius: 5px;
+    border: 1px solid var(--textColorGray);
+    cursor: pointer;
+}
+
+#composePublishButton:hover
+{
+    background-color: var(--hoverOrange);
+    color: var(--textColorGray);
+    border: 0.5px solid var(--textColorGray);
+}
+
+/* blog post container */
+
+.postDesign
+{
+    border: 1px solid rgb(158, 158, 158);
+    padding: 0% 2%;
+    margin-bottom: 2%;
+}
