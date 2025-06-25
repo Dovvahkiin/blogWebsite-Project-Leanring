@@ -5,8 +5,9 @@
     <div class="postDesign">
     <h1><%= post.title %></h1>
     <hr>
-    <p><%= post.text.slice(1,100)+"..."%>
-    <a href="/posts/<%= post.title%>">Read More...</a>
+    <p><%= post.postMessage.slice(0,100)+"..."%>
+    <a href="/posts/<%= post._id%>">Read More...</a>
+    <input type="hidden" name="getInfoId" value="<%=post._id%>">
     </p>
     </div>
 <%}); %>
